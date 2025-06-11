@@ -57,3 +57,9 @@ if ($this->app->environment('production')) {
 }
 ```
 
+## Cargar estilos
+
+```php
+php artisan vendor:publish --force --tag=livewire:assets
+```
+
