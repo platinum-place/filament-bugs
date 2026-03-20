@@ -59,6 +59,13 @@ if ($this->app->environment('production')) {
 
 ## Cargar estilos
 
+Es recomendado colocar ambas URL para la carga de estilos.
+
+```ssh
+APP_URL=http://localhost
+ASSET_URL=http://localhost
+```
+
 ```php
 php artisan vendor:publish --force --tag=livewire:assets
 ```
