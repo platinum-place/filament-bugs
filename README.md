@@ -37,7 +37,7 @@ Para más detalles, revisa la documentación oficial de [Filament](https://filam
 
 Dentro de routes/web.php:
 ```php
-Route:get('/login',function(){
+Route::get('/login',function(){
 return redirect()->route('filament.admin.auth.login');
 })->name('login');
 ```
